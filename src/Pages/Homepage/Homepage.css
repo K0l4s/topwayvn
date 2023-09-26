@@ -1,0 +1,84 @@
+.homepage{
+    padding: 2rem;
+}
+
+.homepage h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    margin-top:25px;
+}
+
+.homepage h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+
+.homepage h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+
+.homepage hr{
+    width: 90%;
+    background: #ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.homepage p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+}
+.homepage .companyInfo{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.homepage .companyInfo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 10px #000000;
+    cursor: pointer;
+}
+
+.homepage .companyInfo .imagelist{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.homepage .companyInfo .imagelist img{
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.homepage .companyInfo .imagelist img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.homepage iframe{
+    width: 100%;
+    height: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 0px 10px #000000;
+}
