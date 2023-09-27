@@ -3,7 +3,7 @@ import './ViewSanPham.css'
 const ViewSanPham = ({ name, src }) => {
     return (
         <div className="viewSanPham">
-            <h1>{name}</h1>
+            <p>{name}</p>
             <img loading='lazy' boxSize='200px' src={src} />
         </div>
     )

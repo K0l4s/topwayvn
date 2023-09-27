@@ -12,6 +12,9 @@
 }
 .viewSanPham img{
     width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
     background: #ffffff;
     border-radius: 10px;
     display: flex;
@@ -20,7 +23,7 @@
     overflow: hidden;
 }
 
-.viewSanPham h1{
+.viewSanPham p{
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
@@ -30,6 +33,7 @@
 
 .viewSanPham:hover{
     transform: scale(1.05);
-    box-shadow: 0 0px 15px #fcb4b4;
+    background: #7f2f2f;
+    box-shadow: 0 0 15px #2b0f1f;
     cursor: pointer;
 }
