@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/topwayvn/static/css/main.91077dab.css",
-    "main.js": "/topwayvn/static/js/main.a306741b.js",
+    "main.css": "/topwayvn/static/css/main.5696c23b.css",
+    "main.js": "/topwayvn/static/js/main.06420a07.js",
     "static/js/787.522b55c9.chunk.js": "/topwayvn/static/js/787.522b55c9.chunk.js",
     "index.html": "/topwayvn/index.html",
-    "main.91077dab.css.map": "/topwayvn/static/css/main.91077dab.css.map",
-    "main.a306741b.js.map": "/topwayvn/static/js/main.a306741b.js.map",
+    "main.5696c23b.css.map": "/topwayvn/static/css/main.5696c23b.css.map",
+    "main.06420a07.js.map": "/topwayvn/static/js/main.06420a07.js.map",
     "787.522b55c9.chunk.js.map": "/topwayvn/static/js/787.522b55c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91077dab.css",
-    "static/js/main.a306741b.js"
+    "static/css/main.5696c23b.css",
+    "static/js/main.06420a07.js"
   ]
 }
