@@ -51,7 +51,7 @@ const Homepage = () => {
                 </div>
             </div>
             <h1>Liên hệ ngay</h1>
-            <h1>*Lưu ý, đây chỉ là biểu mẫu sample, sau khi web được chấp nhận, hãy tạo lại 1 forms khác và gửi cho dev để cập nhật forms!</h1>
+            <h1>*Lưu ý, đây chỉ là biểu mẫu sample. Sau khi hoàn thành web, hãy tạo lại 1 forms khác và gửi cho dev để cập nhật forms!</h1>
             <hr />
             <iframe loading="lazy" frame src="https://forms.gle/eseG4gyXvsyXqt747" frameborder="0"></iframe>
         </div>
