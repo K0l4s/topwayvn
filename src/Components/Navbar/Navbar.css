@@ -10,6 +10,7 @@
     width: 100%;
     padding: 15px;
     box-shadow: 0 0px 10px #5b5c66;
+    flex-wrap: wrap;
 }
 .navbar img{
     width: 70px;
@@ -28,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .navbar .group .nav_button{
     background: transparent;
