@@ -1,9 +1,10 @@
 import React from 'react'
+import './ViewSanPham.css'
 const ViewSanPham = ({ name, src }) => {
     return (
-        <div>
+        <div className="viewSanPham">
             <h1>{name}</h1>
-            <img width={300} loading='lazy' boxSize='200px' src={src} />
+            <img loading='lazy' boxSize='200px' src={src} />
         </div>
     )
 }

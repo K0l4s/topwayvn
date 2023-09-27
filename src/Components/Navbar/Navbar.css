@@ -39,7 +39,7 @@
     margin: 0 10px;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s smooth;
 }
 .navbar .group .nav_button:hover{
     background: #fff;
@@ -48,3 +48,4 @@
     /* Phát sáng phía sau button */
     box-shadow: 0 0px 10px #fff;
 }
+

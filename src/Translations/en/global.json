@@ -1,0 +1,21 @@
+{
+    "navbar":{
+        "home": "Home",
+        "tab_1": "Assembled Components",
+        "tab_2": "Gunsmithing",
+        "tab_3": "Precision Machining",
+        "tab_4": "All Products"
+    },
+    "home":{
+        "aboutUs": "About Us",
+        "infor": "Information",
+        "infor_1": "Location: Hamlet 1, Tan Thanh Dong Commune, Cu Chi District, Ho Chi Minh City",
+        "phone": "Phone Number:",
+        "history": "Formation History",
+        "historyDetail": "Topway Company was established in 2019 with its initial headquarters in Binh Duong, and later moved to Bien Hoa, Dong Nai. Currently, the company has been operating in trade, mold manufacturing, and mechanical engineering for nearly 5 years. With a team of engineers, foreign experts, bachelor's degree holders, and skilled workers with over 10 years of experience, Top Way Vietnam is committed to providing our customers and partners with the best products and services.",
+        "businessAreas": "Business Areas",
+        "businessAreasDetail": "Top Way Vietnam is a company specializing in mechanical engineering, specifically in the design and manufacturing of molds, machine components, and custom machinery. They utilize modern CNC machining equipment, presses, welding machines, lathes, milling machines, grinders, and more. Recognizing the significance of mechanical engineering as the core value in industrialization and modernization, Top Way Vietnam is committed to enhancing product quality as the key to building strong trust with customers and partners. All products manufactured by Top Way Vietnam undergo strict quality control processes, from raw materials and input tools to the production phase, and rigorous inspection before shipment to ensure consistent quality across all delivered components. In addition to their mechanical engineering services, Top Way Vietnam also provides accounting and tax services, accounting data resolution for businesses, business establishment, modification, and dissolution, as well as consulting and assistance with obtaining work permits, visas, and residence cards for foreigners.",
+        "partner": "Partner of",
+        "contact": "Contact Us"
+    }
+}

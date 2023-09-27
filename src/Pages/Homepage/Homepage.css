@@ -47,6 +47,8 @@
     border-radius: 10px;
     background: black;
     transition: all 0.3s ease-in-out;
+    box-shadow: 0 0px 10px #000000;
+
 }
 
 .homepage .companyInfo:hover{

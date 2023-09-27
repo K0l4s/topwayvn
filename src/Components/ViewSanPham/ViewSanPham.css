@@ -1,0 +1,35 @@
+.viewSanPham{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #000000;
+    box-shadow: 0 0px 15px #000000;
+    transition: all 0.3s ease-in-out;
+}
+.viewSanPham img{
+    width: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.viewSanPham h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.viewSanPham:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 15px #fcb4b4;
+    cursor: pointer;
+}
