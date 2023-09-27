@@ -43,6 +43,7 @@ const Router = () => {
       <div className="content">
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/topwayvn" element={<Homepage />} />
           <Route path="/all" element={<Tatca />} />
         </Routes>
       </div>
