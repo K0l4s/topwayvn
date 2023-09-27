@@ -2,7 +2,7 @@
   "name": "sell",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/K0l4s/topwayvn/",
+  "homepage": "https://k0l4s.github.io/topwayvn/",
   "dependencies": {
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
