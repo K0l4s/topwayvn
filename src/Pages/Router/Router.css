@@ -23,3 +23,17 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+
+.main .zalo{
+    /* Hiển thị trên cùng bên dưới màn hình */
+    position: fixed;
+    bottom: 80px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}

@@ -6,7 +6,7 @@ import FooterBar from '../../Components/FooterBar/FooterBar';
 import './Router.css';
 import { BsFillArrowUpSquareFill } from 'react-icons/bs';
 import Tatca from '../SanPham/TatCa/Tatca';
-
+import { SiZalo } from 'react-icons/si';
 const Router = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
 
@@ -40,6 +40,11 @@ const Router = () => {
       <div className="navbar">
         <Navbar />
       </div>
+      <div className="zalo">
+        <a href="https://zalo.me/0977842578">
+          <SiZalo size={30}></SiZalo>
+        </a>
+      </div>
       <div className="content">
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -47,6 +52,7 @@ const Router = () => {
           <Route path="/all" element={<Tatca />} />
         </Routes>
       </div>
+
       <div className="footer">
         <FooterBar />
       </div>
