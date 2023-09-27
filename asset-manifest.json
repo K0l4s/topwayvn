@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/K0l4s/topwayvn/static/css/main.0bc57cce.css",
-    "main.js": "/K0l4s/topwayvn/static/js/main.587c87b3.js",
+    "main.css": "/K0l4s/topwayvn/static/css/main.91077dab.css",
+    "main.js": "/K0l4s/topwayvn/static/js/main.d8a96d2e.js",
     "static/js/787.522b55c9.chunk.js": "/K0l4s/topwayvn/static/js/787.522b55c9.chunk.js",
     "index.html": "/K0l4s/topwayvn/index.html",
-    "main.0bc57cce.css.map": "/K0l4s/topwayvn/static/css/main.0bc57cce.css.map",
-    "main.587c87b3.js.map": "/K0l4s/topwayvn/static/js/main.587c87b3.js.map",
+    "main.91077dab.css.map": "/K0l4s/topwayvn/static/css/main.91077dab.css.map",
+    "main.d8a96d2e.js.map": "/K0l4s/topwayvn/static/js/main.d8a96d2e.js.map",
     "787.522b55c9.chunk.js.map": "/K0l4s/topwayvn/static/js/787.522b55c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bc57cce.css",
-    "static/js/main.587c87b3.js"
+    "static/css/main.91077dab.css",
+    "static/js/main.d8a96d2e.js"
   ]
 }
