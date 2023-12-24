@@ -1,6 +1,5 @@
-.navbar{
-    background:#090909;
-    /* align items to center and fixed it */
+/* .navbar{
+    background:#0f00b5;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,19 +10,24 @@
     padding: 15px;
     box-shadow: 0 0px 10px #5b5c66;
     flex-wrap: wrap;
+    z-index: 999;
 }
-.navbar img{
+.navbar .logo{
     width: 70px;
     height: 70px;
-    border-radius: 50%;
+    margin-left: 200px;
     object-fit: cover;
     object-position: center;
+
     transition: all 0.3s ease-in-out;
 }
-.navbar img:hover{
+.navbar .behind_logo .logo:hover{
     cursor: pointer;
     transform: scale(1.2);
-    box-shadow: 0 0px 10px #fff;
+}
+.navbar .language img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
 .navbar .group{
     display: flex;
@@ -45,9 +49,130 @@
 }
 .navbar .group .nav_button:hover{
     background: #fff;
-    color: #000000;
+    color: #0f00b5;
     cursor: pointer;
-    /* Phát sáng phía sau button */
     box-shadow: 0 0px 10px #fff;
 }
 
+.navbar .language {
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    left: 2px;
+}
+
+.navbar .language img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+} 
+  */
+
+
+.nav{
+    background:#334A9B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0px 10px #5b5c66;
+    z-index: 999;
+}
+
+.nav .nav_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav .nav_top .language{
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 10px;
+    right: 130px;
+}
+
+.nav .nav_top .language img{
+    width: 30px;
+    object-fit: cover;
+    object-position: center;
+    margin: 5px;
+    transform: all 0.5s ease-in-out;
+}
+
+.nav .nav_top .language img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.nav .nav_top .logo{
+    width: 100%;
+    margin-left: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav .nav_top .logo img{
+    width: auto;
+    height: 90px;
+    transition: all 0.3s ease-in-out;
+    /* Bỏ keyframes identifier vào đây */
+    animation: identifier 2.5s infinite;
+}
+
+.nav .nav_top .logo:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 20px #fff);
+}
+@keyframes identifier {
+    /* Phát sáng đằng sau */
+    0%{
+        filter: drop-shadow(0 0 0px #fff);
+    }
+    50%{
+        filter: drop-shadow(0 0 20px #fff);
+    }
+    100%{
+        filter: drop-shadow(0 0 00px #fff);
+    }
+}
+/* Thêm animation blur cho logo */
+.nav .nav_top .logo:hover img{
+    filter: blur(0.5px);
+}
+.nav .nav_top .nav_text{
+    display: fixed;
+    margin-right: 30%;
+    color: #fff;
+    font-size: medium;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav .nav_group{
+    background: #EC2F3F;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+    padding: 10px;
+    
+}
+
+.nav .nav_group .nav_button{
+    margin-right: 5px;
+}
+
+.nav .nav_group .nav_button:hover{
+    cursor: pointer;
+    background: #ffffff;
+    color:#EC2F3F
+}

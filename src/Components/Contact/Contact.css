@@ -1,0 +1,18 @@
+.contact{
+    margin-top:100px;
+    margin-bottom: 20px;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+.contact iframe{
+    width: 90%;
+    margin-left: 5%;
+    height: 1000px;
+    border-radius: 15px;
+}

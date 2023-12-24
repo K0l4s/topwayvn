@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import ViewSanPham from '../../../Components/ViewSanPham/ViewSanPham'
-import './Tatca.css'
+import './LinhKienMay.css'
 import { useTranslation } from 'react-i18next'
 import ProductDetail from '../../ProductDetail/ProductDetail'
-const Tatca = () => {
+const LinhKienMay = () => {
   const [t, i18n] = useTranslation("global");
   const [isOpen, setIsOpen] = useState();
   const onClose = () => { setIsOpen(false); }
   const [productId, setProductId] = useState("1");
   return (
-    <div className="tatCa">
+    <div className="gcct">
       <div className="productList">
         <div className="1" onClick={() => { setIsOpen(true); setProductId("1") }}>
           <ViewSanPham name={t("product.product_1.name")} src={t("product.product_1.ImageUrl")} />
@@ -74,4 +74,4 @@ const Tatca = () => {
   )
 }
 
-export default Tatca
+export default LinhKienMay

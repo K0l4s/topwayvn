@@ -1,0 +1,37 @@
+.show{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px; /* Cách trên của hình ảnh */
+    margin-right: 20px;
+}
+.show .pre{
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+}
+
+.show .next{
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+}
+.show .pre:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.show .next:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+    opacity: 0.9;
+}

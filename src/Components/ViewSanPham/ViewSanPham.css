@@ -1,18 +1,18 @@
 .viewSanPham{
     width: 400px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    margin: 20px;
-    padding: 20px;
     border-radius: 10px;
-    background: #000000;
-    box-shadow: 0 0px 15px #000000;
+    background: #334A9B;
     transition: all 0.3s ease-in-out;
+    
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px; /* Cách trên của hình ảnh */
 }
 .viewSanPham img{
-    width: 100%;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     object-position: center;
     background: #ffffff;
@@ -24,16 +24,21 @@
 }
 
 .viewSanPham p{
+    position: absolute;
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     color: #ffffff;
-    margin: 10px;
+    background: black;
+    opacity: 0.4;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .viewSanPham:hover{
-    transform: scale(1.05);
-    background: #7f2f2f;
-    box-shadow: 0 0 15px #2b0f1f;
+    transform: scale(1.07);
     cursor: pointer;
 }

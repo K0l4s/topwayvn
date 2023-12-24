@@ -1,12 +1,13 @@
 {
-    "navbar":{
+    "navbar": {
         "home": "Home",
         "tab_1": "Assembled Components",
         "tab_2": "Gunsmithing",
         "tab_3": "Precision Machining",
-        "tab_4": "All Products"
+        "tab_4": "All Products",
+        "tab_5": "Contact"
     },
-    "home":{
+    "home": {
         "aboutUs": "About Us",
         "infor": "Information",
         "infor_1": "Location: Hamlet 1, Tan Thanh Dong Commune, Cu Chi District, Ho Chi Minh City",
@@ -14,9 +15,88 @@
         "history": "Formation History",
         "historyDetail": "Topway Company was established in 2019 with its initial headquarters in Binh Duong, and later moved to Bien Hoa, Dong Nai. Currently, the company has been operating in trade, mold manufacturing, and mechanical engineering for nearly 5 years. With a team of engineers, foreign experts, bachelor's degree holders, and skilled workers with over 10 years of experience, Top Way Vietnam is committed to providing our customers and partners with the best products and services.",
         "businessAreas": "Business Areas",
-        "businessAreasDetail": "Top Way Vietnam is a company specializing in mechanical engineering, specifically in the design and manufacturing of molds, machine components, and custom machinery. They utilize modern CNC machining equipment, presses, welding machines, lathes, milling machines, grinders, and more. Recognizing the significance of mechanical engineering as the core value in industrialization and modernization, Top Way Vietnam is committed to enhancing product quality as the key to building strong trust with customers and partners. All products manufactured by Top Way Vietnam undergo strict quality control processes, from raw materials and input tools to the production phase, and rigorous inspection before shipment to ensure consistent quality across all delivered components. In addition to their mechanical engineering services, Top Way Vietnam also provides accounting and tax services, accounting data resolution for businesses, business establishment, modification, and dissolution, as well as consulting and assistance with obtaining work permits, visas, and residence cards for foreigners.",
+        "businessAreasDetail": "Top Way Vietnam is a company specializing in mechanical engineering, specifically in the design and manufacturing of molds, machine components, and custom machinery. They utilize modern CNC machining equipment, presses, welding machines, lathes, milling machines, grinders, and more. Recognizing the significance of mechanical engineering as the core value in industrialization and modernization, Top Way Vietnam is committed to enhancing product quality as the key to building strong trust with customers and partners. All products manufactured by Top Way Vietnam undergo strict quality control processes, from raw materials and input tools to the production phase, and rigorous inspection before shipment to ensure consistent quality across all delivered components.",
         "partner": "Partner of",
-        "contact": "Contact Us"
+        "contact": "Contact Us",
+        "view": "Featured Products"
     },
-    "footer": "TOPWAY VIETNAM TRADING PRODUCTION SERVICES COMPANY LIMITED"
+    "footer": "TOPWAY VIETNAM TRADING PRODUCTION SERVICES COMPANY LIMITED",
+    "product": {
+        "product_1": {
+            "name": "Center Ring",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p34_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_2": {
+            "name": "Steam Bag Mold Set",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p32_i1_w1280.jpeg?width=1200&optimize=medium"
+        },
+        "product_3": {
+            "name": "Coil Disc",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p31_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_4": {
+            "name": "Lock Block Assembly",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p30_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_5": {
+            "name": "Injection Molds",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p28_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_6": {
+            "name": "Various Gun Barrels",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p27_i1_w920.jpeg?width=1200&optimize=medium"
+        },
+        "product_7": {
+            "name": "Various Small Gun Barrels",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p26_i1_w988.jpeg?width=1200&optimize=medium"
+        },
+        "product_8": {
+            "name": "Hexagonal Gun Barrel",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p25_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_9": {
+            "name": "Snap Ring Clamp",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p24_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_10": {
+            "name": "Gun Barrel",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p23_i1_w1280.jpeg?width=1200&optimize=medium"
+        },
+        "product_11": {
+            "name": "Double-End Shaft",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p22_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_12": {
+            "name": "Various Circlips",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p21_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_13": {
+            "name": "Conveyor Roller",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p20_i1_w1152.jpeg?width=1200&optimize=medium"
+        },
+        "product_14": {
+            "name": "Heat Plate Set",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p19_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_15": {
+            "name": "950*145*50 Gun Barrel",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p16_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_16": {
+            "name": "Tire Mold Fitting Piece",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p15_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_17": {
+            "name": "Bearing Support Pillow Block",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p14_i1_w1280.jpeg?width=1200&optimize=medium"
+        },
+        "product_18": {
+            "name": "Brass Roller",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p13_i1_w1280.jpeg?width=1200&optimize=medium"
+        },
+        "product_19": {
+            "name": "Rubber Ring PS2A17~24 inch Replacement Kit",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p6_i1_w1286.jpeg?width=1200&optimize=medium"
+        }
+    }
 }

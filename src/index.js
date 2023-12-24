@@ -11,6 +11,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 
 import global_en from './Translations/en/global.json';
 import global_vi from './Translations/vi/global.json';
+import global_cn from './Translations/cn/global.json';
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 
@@ -23,6 +24,9 @@ i18next.init({
     },
     vi: {
       global: global_vi
+    },
+    cn: {
+      global: global_cn
     },
   },
 });

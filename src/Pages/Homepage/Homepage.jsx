@@ -1,40 +1,40 @@
 import React from 'react'
 import './Homepage.css'
 import { useTranslation } from 'react-i18next';
+import ProductSlideShow from '../../Components/ProductSlideShow/ProductSlideShow';
+import ImageSlideShow from '../../Components/ImageSlideShow/ImageSlideShow';
+import { useNavigate } from 'react-router-dom';
 const Homepage = () => {
     const [t, i18n] = useTranslation("global");
+    
     return (
         <div className="homepage">
-
+            {/* <img className="mainPhoto" src="https://ba23cd2041780287b02b.cdn6.editmysite.com/uploads/b/ba23cd2041780287b02b335bf182d9d7dc7b7c24cc899f1dd26f9f6020ee03f7/2023-08-23_14-47-53_1692776887.jpg?width=1200&dpr=1.25" alt="main" /> */}
+            <ImageSlideShow />
             <h1>{t("home.aboutUs")}</h1>
             <hr />
             <div className="companyInfo">
-                <h2>{t("home.infor")}</h2>
-                <hr />
-                <div className="flipCard">
-                    <h3>CÔNG TY TNHH TM SX DV TOP WAY VIỆT NAM</h3>
-                    <h3>TOPWAY VIETNAM TRADING PRODUCTION SERVICES COMPANY LIMITED</h3>
-                    <p>{t("home.infor_1")}</p>
-                    <p>{t("home.phone")} 0908793445</p>
-                    <p>Email: Topwayvn9999@gmail.com</p>
-                    <p>MST: 3702813749</p>
+                <img className='ciImage' src="https://ycc.com.vn/wp-content/uploads/2023/06/content.jpg" alt="" />
+                <div className="ciText">
+                    <h2>{t("home.history")}</h2>
+                    <hr />
+                    <div className="flipCard">
+                        <p>{t("home.historyDetail")}</p>
+                    </div>
                 </div>
             </div>
+
             <div className="companyInfo">
-                <h2>{t("home.history")}</h2>
-                <hr />
-                <div className="flipCard">
-                    <p>{t("home.historyDetail")}</p>
+                <div className="ciText">
+                    <h2>{t("home.businessAreas")}</h2>
+                    <hr />
+                    <div className="flipCard">
+                        <p>{t("home.businessAreasDetail")}</p>
+                    </div>
                 </div>
+                <img src="https://winwinmedia.vn/wp-content/uploads/2019/11/dich-vu-viet-bai-content-tai-vinh-phuc.jpg" alt="" className="ciImage" />
             </div>
-            <div className="companyInfo">
-                <h2>{t("home.businessAreas")}</h2>
-                <hr />
-                <div className="flipCard">
-                    <p>{t("home.businessAreasDetail")}</p>
-                </div>
-            </div>
-            <div className="companyInfo">
+            <div className="partner">
                 <h2>{t("home.partner")} TopWay VietNam</h2>
                 <hr />
                 <div className="imagelist">
@@ -42,20 +42,25 @@ const Homepage = () => {
                         alt="Maxxit" loading='lazy' />
                     <img src="https://sandbox.weebly.com/uploads/b/ba23cd2041780287b02b335bf182d9d7dc7b7c24cc899f1dd26f9f6020ee03f7/2_1692342260.png?width=1200&optimize=medium"
                         alt="Sailun" loading='lazy' />
-                    <img src="https://sandbox.weebly.com/uploads/b/ba23cd2041780287b02b335bf182d9d7dc7b7c24cc899f1dd26f9f6020ee03f7/4_1692342288.png?width=1200&optimize=medium"
+                    <img src="https://www.tireregistrationplus.com/images/Kumho-Tire-logo-2560x1440.png"
                         alt="Kumho Tire" loading='lazy' />
-                    <img src="https://sandbox.weebly.com/uploads/b/ba23cd2041780287b02b335bf182d9d7dc7b7c24cc899f1dd26f9f6020ee03f7/6_1692342295.png?width=1200&optimize=medium"
+                    <img src="https://i.ibb.co/54WtZd3/6-1692342295-removebg-preview.png"
                         alt="Tai Tan" loading='lazy' />
                     <img src="https://sandbox.weebly.com/uploads/b/ba23cd2041780287b02b335bf182d9d7dc7b7c24cc899f1dd26f9f6020ee03f7/5_1692342292.png?width=1200&optimize=medium"
                         alt="Jinyu" loading='lazy' />
-                    <img src="https://sandbox.weebly.com/uploads/b/ba23cd2041780287b02b335bf182d9d7dc7b7c24cc899f1dd26f9f6020ee03f7/Picture1_1692342329.png?width=1200&optimize=medium"
+                    <img src="https://www.carlogos.org/tire-brands-logos/Kenda-Tires-logo-5000x2000.png"
                         alt="Kenda" loading='lazy' />
                 </div>
             </div>
-            <h1>{t("home.contact")}</h1>
-            <h1>*Lưu ý, đây chỉ là biểu mẫu sample. Sau khi hoàn thành web, hãy tạo lại 1 forms khác và gửi cho dev để cập nhật forms!</h1>
-            <hr />
-            <iframe loading="lazy" frame src="https://forms.gle/eseG4gyXvsyXqt747" frameborder="0"></iframe>
+            <div className="showSlide">
+                <h1>{t("home.view")}</h1>
+                <div className="slide">
+                    <ProductSlideShow />   
+                    <ProductSlideShow />
+                    <ProductSlideShow />
+                </div>
+            </div>
+
         </div>
     )
 }

@@ -1,0 +1,43 @@
+/* ImageSlideShow.css */
+.slideshow-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px; /* Cách trên của hình ảnh */
+  }
+  
+  button.pre,
+  button.next {
+    position: absolute;
+    top: 40%; /* Điều chỉnh vị trí top theo mong muốn */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 24px; /* Cỡ chữ */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button.pre:hover,
+  button.next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.09);
+  }
+  
+  button.pre {
+    left: 10px; /* Điều chỉnh vị trí nút "Previous" */
+  }
+  
+  button.next {
+    right: 10px; /* Điều chỉnh vị trí nút "Next" */
+  }
+  
+  .slideshow-image {
+    width: 1920px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  

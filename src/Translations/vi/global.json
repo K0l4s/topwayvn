@@ -4,7 +4,8 @@
         "tab_1": "Linh Kiện Thành Hình",
         "tab_2": "Khẩu Kim",
         "tab_3": "Gia Công Chi Tiết",
-        "tab_4": "Tất cả sản phẩm"
+        "tab_4": "Tất cả sản phẩm",
+        "tab_5": "Liên hệ"
     },
     "home":{
         "aboutUs": "Về chúng tôi",
@@ -14,9 +15,10 @@
         "history": "Lịch sử hình thành",
         "historyDetail": "Công ty Topway được thành lập vào năm 2019 với trụ sở đầu tiên tại Bình Dương, sau đó đã chuyển về Biên Hòa-Đồng Nai, hiện tại công ty đã hoạt động được gần 5 năm trong thương mại, sản xuất khuôn mẫu, cơ khí. Với đội ngũ kỹ sư, chuyên gia nước ngoài, cử nhân và công nhân lành nghề trên 10 năm kinh nghiệm, Top Way Việt Nam cam kết sẽ cung cấp cho Quý khách hàng và đối tác những sản phẩm, dịch vụ tốt nhất.",
         "businessAreas": "Lĩnh vực kinh doanh",
-        "businessAreasDetail": "Top Way Việt Nam là công ty chuyên về Cơ khí, chuyên thiết kế và chế tạo khuôn mẫu, phụ tùng máy, máy chuyên dùng theo yêu cầu với các máy móc gia công hiện đại CNC, Máy dập, máy Hàn, Máy Tiện, máy Phay, máy Mài... Với nhận thức cơ khí là giá trị cốt lõi của sản xuất, của nền công nghiệp hoá - hiện đại hoá công nghiệp; Việc nâng cao chất lượng sản phẩm là chìa khoá để Top Way Việt Nam tạo dựng lòng tin vững chắc đối với khách hàng và đối tác. Tất cả các sản phẩm của Top Way Việt Nam đều trải qua quá trình chế tạo được kiểm soát chặt chẽ từ nguyên vật liệu, công cụ dụng cụ đầu vào, trong quá trình sản xuất cũng như kiểm tra nghiêm ngặt khi xuất kho đảm bảo chất lượng đồng đều trên tất cả loạt chi tiết được giao đến tay khách hàng. Ngoài ra, Top Way Việt Nam còn thực hiện các dịch vụ như: Kế toán - Thuế và gỡ rối số liệu kế toán doanh nghiệp; Thành lập - Thay đổi - Giải thể doanh nghiệp; Tư vấn và xin cấp phép lao động, Visa, Thẻ tạm trú cho người nước ngoài.",
+        "businessAreasDetail": "Top Way Việt Nam là công ty chuyên về Cơ khí, chuyên thiết kế và chế tạo khuôn mẫu, phụ tùng máy, máy chuyên dùng theo yêu cầu với các máy móc gia công hiện đại CNC, Máy dập, máy Hàn, Máy Tiện, máy Phay, máy Mài... Với nhận thức cơ khí là giá trị cốt lõi của sản xuất, của nền công nghiệp hoá - hiện đại hoá công nghiệp; Việc nâng cao chất lượng sản phẩm là chìa khoá để Top Way Việt Nam tạo dựng lòng tin vững chắc đối với khách hàng và đối tác. Tất cả các sản phẩm của Top Way Việt Nam đều trải qua quá trình chế tạo được kiểm soát chặt chẽ từ nguyên vật liệu, công cụ dụng cụ đầu vào, trong quá trình sản xuất cũng như kiểm tra nghiêm ngặt khi xuất kho đảm bảo chất lượng đồng đều trên tất cả loạt chi tiết được giao đến tay khách hàng.",
         "partner": "Đối tác của",
-        "contact": "Liên hệ ngay với chúng tôi"
+        "contact": "Liên hệ ngay với chúng tôi",
+        "view": "Sản phẩm nổi bật"
     },
     "footer": "CÔNG TY TNHH TM SX DV TOP WAY VIỆT NAM",
     "product":{

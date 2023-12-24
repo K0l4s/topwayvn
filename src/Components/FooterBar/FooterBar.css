@@ -1,26 +1,22 @@
 .footer{
-    background: #090909;
+    background: #334A9B;
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
 }
 .footer img{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+    width: 10%;
+    height: 10%;
     object-fit: cover;
     object-position: center;
     transition: all 0.3s ease-in-out;
-    margin-right:15px;
 }
 .footer img:hover{
     cursor: pointer;
     transform: scale(1.2);
-    box-shadow: 0 0px 10px #fff;
 }
 
 .footer p{
     color:aliceblue;
+}
+.footer .text{
+    text-align: center;
 }

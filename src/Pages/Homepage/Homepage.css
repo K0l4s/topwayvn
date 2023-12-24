@@ -1,12 +1,10 @@
-.homepage{
-    padding: 2rem;
-}
+
 
 .homepage h1{
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    color: #000;
+    color: #0f00b5;
     margin-top:25px;
 }
 
@@ -38,49 +36,49 @@
     color: #ffffff;
 }
 .homepage .companyInfo{
-    padding: 50px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     margin-top: 2rem;
-    border-radius: 10px;
-    background: black;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 0px 10px #000000;
-
+    background: #334A9B;
+}
+.homepage .companyInfo .ciImage{
+    height: 100%;
+    width: 50%;
+}
+.homepage .companyInfo .ciText{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2rem;
 }
 
-.homepage .companyInfo:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0px 10px #000000;
-    cursor: pointer;
+.homepage .partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    background: #334A9B;
+    padding: 2rem 0;
 }
-
-.homepage .companyInfo .imagelist{
+.homepage .partner .imagelist{
+    width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
 }
 
-.homepage .companyInfo .imagelist img{
+.homepage .partner .imagelist img{
     height: 100px;
     width: auto;
-    margin: 10px;
     transition: all 0.3s ease-in-out;
 }
 
-.homepage .companyInfo .imagelist img:hover{
+.homepage .partner .imagelist img:hover{
     transform: scale(1.1);
     cursor: pointer;
-}
-
-.homepage iframe{
-    width: 100%;
-    height: 1000px;
-    border-radius: 15px;
-    box-shadow: 0 0px 10px #000000;
 }

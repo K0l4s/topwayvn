@@ -1,22 +1,102 @@
 {
-    "navbar":{
-        "home": "Home",
-        "tab_1": "Assembled Components",
-        "tab_2": "Gunsmithing",
-        "tab_3": "Precision Machining",
-        "tab_4": "All Products"
+    "navbar": {
+        "home": "主页",
+        "tab_1": "组装部件",
+        "tab_2": "枪支修理",
+        "tab_3": "精密加工",
+        "tab_4": "所有产品",
+        "tab_5": "接触"
     },
-    "home":{
-        "aboutUs": "About Us",
-        "infor": "Information",
-        "infor_1": "Location: Hamlet 1, Tan Thanh Dong Commune, Cu Chi District, Ho Chi Minh City",
-        "phone": "Phone Number:",
-        "history": "Formation History",
-        "historyDetail": "Topway Company was established in 2019 with its initial headquarters in Binh Duong, and later moved to Bien Hoa, Dong Nai. Currently, the company has been operating in trade, mold manufacturing, and mechanical engineering for nearly 5 years. With a team of engineers, foreign experts, bachelor's degree holders, and skilled workers with over 10 years of experience, Top Way Vietnam is committed to providing our customers and partners with the best products and services.",
-        "businessAreas": "Business Areas",
-        "businessAreasDetail": "Top Way Vietnam is a company specializing in mechanical engineering, specifically in the design and manufacturing of molds, machine components, and custom machinery. They utilize modern CNC machining equipment, presses, welding machines, lathes, milling machines, grinders, and more. Recognizing the significance of mechanical engineering as the core value in industrialization and modernization, Top Way Vietnam is committed to enhancing product quality as the key to building strong trust with customers and partners. All products manufactured by Top Way Vietnam undergo strict quality control processes, from raw materials and input tools to the production phase, and rigorous inspection before shipment to ensure consistent quality across all delivered components. In addition to their mechanical engineering services, Top Way Vietnam also provides accounting and tax services, accounting data resolution for businesses, business establishment, modification, and dissolution, as well as consulting and assistance with obtaining work permits, visas, and residence cards for foreigners.",
-        "partner": "Partner of",
-        "contact": "Contact Us"
+    "home": {
+        "aboutUs": "关于我们",
+        "infor": "信息",
+        "infor_1": "位置：胡志明市古芝区唐桑东村1号",
+        "phone": "联系电话：",
+        "history": "成立历史",
+        "historyDetail": "Topway公司成立于2019年，最初总部设在平阳省彬江，后迁至东奈省平化。目前，该公司已经从事贸易、模具制造和机械工程近5年。拥有一支由工程师、外国专家、学士学位持有者以及拥有超过10年经验的熟练工人组成的团队，Top Way Vietnam致力于为客户和合作伙伴提供最优质的产品和服务。",
+        "businessAreas": "业务领域",
+        "businessAreasDetail": "Top Way越南是一家专业从事机械工程的公司，具体专注于模具设计和制造、机械零部件以及定制机械的设计与制造。他们采用现代CNC加工设备、压力机、焊接机、车床、铣床、磨床等工具和设备。认识到机械工程在工业化和现代化中的核心价值，Top Way越南致力于提高产品质量，以此作为建立与客户和合作伙伴之间坚固信任的关键。Top Way越南制造的所有产品都经过严格的质量控制过程，从原材料和输入工具到生产阶段，以及在发货前进行严格的检查，以确保所有交付的零部件的质量保持一致。",
+        "partner": "合作伙伴",
+        "contact": "联系我们",
+        "view": "精选产品"
     },
-    "footer": "TOPWAY VIETNAM TRADING PRODUCTION SERVICES COMPANY LIMITED"
+    "footer": "TOPWAY VIETNAM贸易生产服务有限公司",
+    "product": {
+        "product_1": {
+            "name": "中心环",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p34_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_2": {
+            "name": "气囊模具",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p32_i1_w1280.jpeg?width=1200&optimize=medium"
+        },
+        "product_3": {
+            "name": "卷辊",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p31_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_4": {
+            "name": "锁块组件",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p30_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_5": {
+            "name": "注塑模具",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p28_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_6": {
+            "name": "各种枪管",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p27_i1_w920.jpeg?width=1200&optimize=medium"
+        },
+        "product_7": {
+            "name": "各种小枪管",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p26_i1_w988.jpeg?width=1200&optimize=medium"
+        },
+        "product_8": {
+            "name": "六角枪管",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p25_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_9": {
+            "name": "凹槽环夹",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p24_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_10": {
+            "name": "枪管",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p23_i1_w1280.jpeg?width=1200&optimize=medium"
+        },
+        "product_11": {
+            "name": "双头轴",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p22_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_12": {
+            "name": "各种环圈",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p21_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_13": {
+            "name": "输送带滚轮",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p20_i1_w1152.jpeg?width=1200&optimize=medium"
+        },
+        "product_14": {
+            "name": "加热板块组件",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p19_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_15": {
+            "name": "950*145*50枪管",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p16_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_16": {
+            "name": "轮胎加热装置",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p15_i1_w1286.jpeg?width=1200&optimize=medium"
+        },
+        "product_17": {
+            "name": "轴承支撑架",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p14_i1_w1280.jpeg?width=1200&optimize=medium"
+        },
+        "product_18": {
+            "name": "黄铜滚轮",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p13_i1_w1280.jpeg?width=1200&optimize=medium"
+        },
+        "product_19": {
+            "name": "橡胶圈PS2A17~24英寸替代套件",
+            "ImageUrl": "https://146659810.cdn6.editmysite.com/uploads/1/4/6/6/146659810/s643209885179793094_p6_i1_w1286.jpeg?width=1200&optimize=medium"
+        }
+    }
 }

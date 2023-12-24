@@ -1,5 +1,6 @@
 import React from 'react'
 import './ViewSanPham.css'
+import { Button } from '@chakra-ui/react'
 const ViewSanPham = ({ name, src }) => {
     return (
         <div className="viewSanPham">
